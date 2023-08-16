@@ -1,0 +1,117 @@
+---
+title: "conditional_loops"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+
+```
+
+# Task 1
+
+```{r}
+pm2_5 <- 48
+
+if(pm2_5 < 100)
+  {print("Low to moderate risk")
+} 
+else if (100 <= pm2_5 < 150)
+  {print("Unhealthy for sensitive groups")
+} 
+else print{("Health risk present")
+      }
+  
+  
+```
+
+Task 2
+
+```{r}
+species <- "blue_whale"
+
+
+if (str_detect(species, "burritos")) {
+  print("You found a whale!")
+} else
+  print("nothing")
+  
+```
+
+Task 3
+
+```{r}
+base_burrito <- 6.5
+main_ingredient <- c("veggie", "chicken", "steak")
+
+for (i in seq_along(main_ingredient)) {
+  if (main_ingredient[i] == "veggie") {
+    print("veggie")
+  } else (main_ingredients[i] )
+    print("These are other animals!")
+}
+
+
+
+for (i in seq_along(main_ingredient)) {
+  if (main_ingredient[i] == "6.5") {
+    veggie <- main_ingredient[i] = 6.5
+  } else if (main_ingredient[i] + 3) {
+    animal_age <- age_human[i] * 0.88
+  } else if (species[i] == "guppies") {
+    animal_age <- age_human[i] * 4.7
+  }
+  print(animal_age)
+  
+```
+
+```{r}
+fish <- c(8,10,12,23)
+seq_along(fish)
+
+species <- c("goldfish", "tetras", "guppies", "mollies")
+
+species <- for (i in seq_along(fish)){
+  print("goldfish", "tetras", "guppies", "mollies")}
+
+  
+  
+  }
+  if(species)
+}
+
+for (i in seq_along(fish)) {
+  if (fish[i] == "goldfish") {
+    species <- fish[i] 
+  } else if (fish[i] == "tetras") {
+    species <- fish[i]
+  } else if (fish[i]) == "guppies") {
+  } species <- fish[i]
+    
+     <- count_fish[i] / 53
+  } else if (fish[i] == "tetras") {
+    <- count_fish[i] / 53
+  } else if (fish[i] == "guppies") {
+    <- count_fish[i] / 53
+  } else if (fish[i] = "mollies" ){
+    <- count_fish[i]/53
+  }
+  print(count_fish))
+
+```
+
+Task 5
+
+```{r}
+month.name <- vector(mode = "character", length = 
+  
+
+# Vectors with species and human age: 
+month <- c("January", "February", "goat", "dog", "dog", "elephant")
+
+number <- c(1, 2, 3, 4, 5, 6)
+
+
+
+```
